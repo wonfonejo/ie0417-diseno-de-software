@@ -1,4 +1,3 @@
-````markdown
 # Parte 4: Aplicación Flask y Dockerfile
 
 ## Aplicación desarrollada
@@ -303,4 +302,3 @@ Esto permite aprovechar mejor el sistema de capas y caché de Docker. Si las dep
 ### 9. ¿Qué pasaría si se elimina la imagen pero no el Dockerfile?
 
 La imagen podría volver a construirse utilizando el Dockerfile y los archivos necesarios de la aplicación.
-````

@@ -1,4 +1,3 @@
-```markdown
 # Parte 1: Verificación de instalación de Docker
 
 ## Versión de Docker instalada
@@ -33,6 +32,7 @@ Este comando muestra información detallada sobre la instalación y el estado ac
 
 ### Resultado parcial obtenido
 
+```text
 Client:
  Version:    29.8.1
  Context:    desktop-linux
@@ -75,6 +75,7 @@ Client:
     Version:  v0.6.33
     Path:     C:\Users\Julian\.docker\cli-plugins\docker-offload.exe
   pass: Docker Pass Secrets Manager Plugin (beta) (Docker Inc.)
+```
 
 ## Ayuda de Docker
 
@@ -109,8 +110,3 @@ El comando `docker info` muestra información relacionada con el funcionamiento 
 ### 3. ¿Por qué Docker necesita un servicio o daemon ejecutándose en segundo plano?
 
 Docker necesita un daemon porque este es el encargado de realizar las operaciones relacionadas con los contenedores y las imágenes. Cuando se ejecuta un comando desde la terminal, el cliente de Docker se comunica con este servicio para solicitar operaciones como crear, ejecutar, detener o eliminar contenedores.
-```
-
-Ahí sí están literalmente los `#`, `##`, `###`, los bloques de código y la referencia a la imagen.
-
-Solo reemplaza los dos textos entre corchetes con tus resultados reales. A partir de ahora, cuando te dé contenido para un `.md`, te lo doy de esta forma literal para que sea copiar → pegar → guardar.

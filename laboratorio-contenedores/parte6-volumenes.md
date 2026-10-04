@@ -1,4 +1,3 @@
-````markdown
 # Parte 6: Volúmenes y bind mounts
 
 # Persistencia con volúmenes
@@ -174,4 +173,3 @@ Los volúmenes suelen ser más convenientes para almacenar datos persistentes po
 ### 4. ¿Qué riesgos podría tener montar carpetas del host dentro del contenedor?
 
 El contenedor obtiene acceso a archivos de la máquina anfitriona. Dependiendo de los permisos utilizados, una aplicación podría modificar o eliminar archivos locales accidentalmente.
-````

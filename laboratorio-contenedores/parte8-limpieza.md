@@ -1,4 +1,3 @@
-````markdown
 # Parte 8: Limpieza del ambiente
 
 ## Revisión de recursos existentes
@@ -104,4 +103,3 @@ Porque los volúmenes pueden contener información persistente importante. Al el
 ### 4. ¿Qué buenas prácticas aplicaría para mantener limpio su ambiente local?
 
 Es conveniente revisar periódicamente los contenedores, imágenes y volúmenes existentes, eliminar recursos que ya no se utilizan y comprobar el espacio ocupado mediante comandos como `docker system df`.
-````

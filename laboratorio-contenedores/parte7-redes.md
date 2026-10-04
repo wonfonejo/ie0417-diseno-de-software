@@ -1,4 +1,3 @@
-````markdown
 # Parte 7: Redes de Docker
 
 # Comunicación entre contenedores
@@ -203,4 +202,3 @@ Permite administrar, actualizar y ejecutar cada servicio de manera independiente
 ### 4. ¿Qué limitación tiene hacerlo manualmente con varios comandos `docker run`?
 
 A medida que aumenta la cantidad de servicios, se vuelve más difícil administrar manualmente la creación, configuración, redes y ejecución de todos los contenedores.
-````

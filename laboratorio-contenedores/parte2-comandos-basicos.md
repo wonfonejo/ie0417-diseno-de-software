@@ -1,4 +1,3 @@
-````markdown
 # Parte 2: Primer contenedor
 
 ## Ejecución del primer contenedor
@@ -72,4 +71,3 @@ Porque `docker ps` muestra únicamente los contenedores que se encuentran actual
 ### 4. ¿Qué demuestra este primer ejemplo sobre Docker?
 
 Este ejemplo demuestra el flujo básico de Docker: utilizar una imagen para crear un contenedor, ejecutar el programa contenido en ella y posteriormente poder consultar el estado del contenedor.
-````
