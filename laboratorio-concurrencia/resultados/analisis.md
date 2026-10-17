@@ -114,17 +114,6 @@ La creación y administración de los hilos, su sincronización y la combinació
 La versión paralela podría resultar más lenta, ya que el costo de crear y administrar los hilos podría ser mayor que el tiempo ahorrado al distribuir el trabajo.
 
 
-### 3. ¿Cuántos núcleos tiene la computadora donde se ejecutó el programa?
-
-La computadora utilizada tiene 6 núcleos físicos y 12 procesadores lógicos, según los resultados obtenidos mediante PowerShell.
-
-
-
-### Conclusión
-
-Los resultados muestran que aumentar la cantidad de hilos puede mejorar el rendimiento hasta cierto punto. Las configuraciones de 4 y 8 hilos obtuvieron los mejores tiempos, con 30 ms, mientras que la configuración de 16 hilos tardó 31 ms. Aunque la computadora dispone de 6 núcleos físicos y 12 procesadores lógicos, utilizar más hilos no produjo una mejora continua. Esto demuestra que el rendimiento también depende de factores como la administración de los hilos y el acceso a memoria.
-
-
 ## Parte 5: Cantidad de hilos vs. rendimiento
 
 ### Resultados obtenidos
