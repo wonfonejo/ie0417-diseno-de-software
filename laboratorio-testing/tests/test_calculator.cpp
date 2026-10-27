@@ -5,7 +5,7 @@
 #include "calculator.h"
 
 TEST(CalculatorTest, AddPositiveNumbers) {
-    EXPECT_EQ(add(2, 3), 999);
+    EXPECT_EQ(add(2, 3), 5);
 }
 
 TEST(CalculatorTest, AddNegativeNumbers) {
