@@ -58,9 +58,14 @@ Las seis pruebas del mini reto se completaron correctamente.
 
 ![Resultados del mini reto](evidencias/11-mini-reto.png)
 
+
 ### Integración con GitHub Actions
 
-Los cambios se subirán al repositorio de GitHub para comprobar que el workflow automatizado ejecuta correctamente las nuevas pruebas.
+Los cambios realizados durante el mini reto se subieron al repositorio de GitHub mediante los comandos `git add`, `git commit` y `git push`.
+
+Posteriormente, se verificó la ejecución automática del workflow configurado en GitHub Actions. El proceso permitió compilar el proyecto y ejecutar las 48 pruebas implementadas, incluyendo las seis correspondientes a la función `is_valid_grade()`.
+
+La ejecución finalizó correctamente, sin pruebas fallidas, confirmando que la nueva funcionalidad se integró al proyecto sin afectar las pruebas existentes.
 
 ### Preguntas de reflexión
 
